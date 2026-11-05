@@ -31,8 +31,8 @@ The on-screen message reads: "Elah has been accepted into the Claude for Startup
 ## What you need to make it again
 
 - [ ] **Claude Code with the Elah plugin.** Run `/plugin marketplace add elahlabs/elah`, then `/plugin install elah@elah`. Run `/reload-plugins` if the skills do not show up.
-- [ ] **A clone of the Elah repo**, because the agent takes the logo from it: `apps/web/public/elah-mark.png`.
-- [ ] **`DESIGN.md`**, the Edit Bay design system. Put it in the folder you start Claude Code from. It sits one level above the repo on Hithesh's machine, so ask for a copy.
+- [ ] **The Elah logo:** `elah-mark.png`, in this folder. Copy it to the folder you start Claude Code from.
+- [ ] **`DESIGN.md`**, the Edit Bay design system, in this folder. Copy it to the same place.
 - [ ] **The reference rocket image**, a hand-drawn rocket with a red nose, cream body, blue window and red fins. Attach it to the first prompt. Ask Hithesh for it.
 - [ ] **The Claude symbol:** [Claude_AI_symbol.svg on Wikimedia](https://commons.wikimedia.org/wiki/File:Claude_AI_symbol.svg). The symbol is Anthropic's trademark, so check the rules before sharing the video publicly.
 
@@ -92,7 +92,7 @@ This combines the final result of all 33 messages into one brief. It has not bee
 ```text
 Use the Elah plugin to make a silent 13.7 s landscape video (1920x1080, 30 fps).
 Read DESIGN.md first and follow its dark theme. Red is the only accent colour.
-Use apps/web/public/elah-mark.png for the red "e" logo. Use this Claude symbol
+Use elah-mark.png for the red "e" logo. Use this Claude symbol
 as it is, without redrawing it:
 https://commons.wikimedia.org/wiki/File:Claude_AI_symbol.svg
 No timeline bar, scene labels or captions. Add nothing beyond these four scenes.
